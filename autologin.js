@@ -1,7 +1,8 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const readline = require('readline');
-const chalk = require('chalk'); // Import chalk library
+//const chalk = require('chalk'); // Import chalk library
+let chalk;
 
 const rl = readline.createInterface({
   input: process.stdin,
